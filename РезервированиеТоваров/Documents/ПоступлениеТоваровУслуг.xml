@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Document uuid="f0c507fc-888a-4651-b96a-24e572cac9da">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПоступлениеТоваровУслуг" category="Object">
+				<xr:TypeId>5170381e-b4a1-41ff-a00a-831e43889578</xr:TypeId>
+				<xr:ValueId>9c75466e-1182-4719-a2ce-76d9dda4d74d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПоступлениеТоваровУслуг" category="Ref">
+				<xr:TypeId>eac292a1-0a17-4c43-bf2d-e0e16045eaf5</xr:TypeId>
+				<xr:ValueId>ec98f805-8d6b-4869-ac1f-df3edc4f157d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПоступлениеТоваровУслуг" category="Selection">
+				<xr:TypeId>0eff08d4-a547-4e0b-9dc3-5d63c517c84a</xr:TypeId>
+				<xr:ValueId>5b6da1aa-4e9a-4808-af2c-115022ff5235</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПоступлениеТоваровУслуг" category="List">
+				<xr:TypeId>5153d1e4-e4d9-4555-9b4e-9ad05b163d46</xr:TypeId>
+				<xr:ValueId>649851f1-1ec0-4ab6-955a-763f215a68b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПоступлениеТоваровУслуг" category="Manager">
+				<xr:TypeId>f4230b2e-db25-4ada-a891-a70e835006c1</xr:TypeId>
+				<xr:ValueId>089cd6df-c9ca-4f31-ae60-2c1b31aa6294</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПоступлениеТоваровУслуг</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>37ec4311-be9a-4853-a06f-4bfc21e493a5</ExtendedConfigurationObject>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РЗ_ПотребностьВТоварах</xr:Item>
+			</RegisterRecords>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ef9e8876-e514-423f-9cec-dde6c253d0eb">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВалютаДокумента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b439c6c3-c308-470e-a927-c0605a54924c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="13acdd54-b3cf-443d-a8c8-f4672125f737">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидОперации</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2ea24046-be85-4b3a-a7fb-94daa9d5fd13</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыОперацийПоступлениеТоваровУслуг</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4fc2632e-84fe-420c-a644-63c9f39ba0e1">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>77e522ce-5a4b-434e-87cf-683c89759d19</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
+			<TabularSection uuid="aab9c5bf-490d-4f8d-8573-d84dd332f73b">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПоступлениеТоваровУслуг.Товары" category="TabularSection">
+						<xr:TypeId>a2f377fe-9276-4801-86ec-bb3c3cd8b23f</xr:TypeId>
+						<xr:ValueId>1891da9d-b806-455c-9c8d-798474e9ba8d</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПоступлениеТоваровУслуг.Товары" category="TabularSectionRow">
+						<xr:TypeId>c2790d7c-b255-4b24-b946-35cf5c84ea7b</xr:TypeId>
+						<xr:ValueId>61703bbb-e98b-4622-a95a-e45910e61d8b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Товары</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2d7d25ae-870b-4b78-af10-8f7bcfa0ad95</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7bb51af3-1575-43bc-b1c0-a8b9ff5b7c37">
+						<InternalInfo/>
+						<Properties>
+							<Name>Количество</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>396743c0-9652-4280-b8f2-b4c77cbed751</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d19c94df-f1f4-47fa-93ee-1eccf562748c">
+						<InternalInfo/>
+						<Properties>
+							<Name>Номенклатура</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>9e069ccd-23c0-43d9-b59c-a5a1b198eba2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

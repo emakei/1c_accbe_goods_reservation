@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.12">
+	<Item id="8226cde7-1995-4147-b9d5-72bbd21b9f52">
+		<Name>Товары</Name>
+		<Code>41</Code>
+		<Description>Товары</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order> 41</Order>
+		<AccountingFlags/>
+		<ChildItems>
+			<Item id="233a5ce7-f7b7-4bcf-8fa6-23a4f9b33002">
+				<Name>ТоварыНаСкладах</Name>
+				<Code>41.1</Code>
+				<Description>Товары на складах</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order> 41.1</Order>
+				<AccountingFlags/>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>
